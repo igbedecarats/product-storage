@@ -24,6 +24,10 @@ spring:
     username: guest
     password: guest
 
+  flyway:
+    enabled: true
+    outOfOrder: true
+
 logging:
   file: storage.log
   level:
